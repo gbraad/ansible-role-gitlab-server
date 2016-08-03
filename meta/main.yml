@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: Gerard Braad
+  description: Deploys GitLab CE server
+  company: gbraad.nl
+  license: BSD
+  min_ansible_version: 2.1
+  platforms:
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  galaxy_tags:
+  - cloud
+  - development
+  - web
+dependencies: []
