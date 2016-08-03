@@ -38,3 +38,6 @@
   
   - name: Install GitLab
     package: name=gitlab-ce state=installed
+
+  - name: Reconfigure GitLab
+    command: gitlab-ctl reconfigure
